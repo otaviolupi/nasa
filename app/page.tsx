@@ -34,7 +34,7 @@ export default function Home() {
             className="absolute w-full h-full img-fit"
           />
         </div>
-        <div className="w-[420px] flex-col md:w-[700px] lg:flex-row 2xl:w-[1400px] mx-auto my-0 flex gap-2 py-6">
+        <div className="w-[90%] flex-col md:w-[700px] lg:flex-row 2xl:w-[1400px] mx-auto my-0 flex gap-2 py-6">
           <div className="w-[100%] lg:w-[30%] xl:w-[21%]">
             <span className="text-black tag-highlight">Agentes na missão</span>
             <div className="flex flex-col gap-4 py-4">
