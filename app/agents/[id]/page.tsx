@@ -10,8 +10,9 @@ export default async function Page({
     {
       id: "aP7dX9qL",
       agent: "01",
-      name: "Otávio Henrique Lupi de Almeida",
-      birth: "",
+      name: "Otávio Lupi",
+      birth: "22/04/2025",
+      location: "Brazil",
       title:
         "Especialista em Operações Táticas e Inteligência Científica – Divisão de Exploração Exoplanetária (DEE/NASA)",
       photo: "/otavio.jpeg",
@@ -29,7 +30,9 @@ export default async function Page({
     {
       id: "Z8mK2rTb",
       agent: "02",
-      name: "Giovana Borges Cirineo Lupi",
+      name: "Giovana Borges Cirineo",
+      birth: "09/09/2001",
+      location: "Brazil",
       title:
         "Especialista em Operações Táticas e Inteligência Científica – Divisão de Exploração Exoplanetária (DEE/NASA)",
       photo: "/otavio.jpeg",
@@ -46,8 +49,10 @@ export default async function Page({
     },
     {
       id: "xY3cNv0W",
-      agent: "03",
-      name: "Giovana Borges Cirineo Lupi",
+      agent: "07",
+      name: "Lorenzo Borges Cirineo",
+      birth: "05/07/2013",
+      location: "Brazil",
       title:
         "Especialista em Operações Táticas e Inteligência Científica – Divisão de Exploração Exoplanetária (DEE/NASA)",
       photo: "/otavio.jpeg",
@@ -64,8 +69,10 @@ export default async function Page({
     },
     {
       id: "Qw7LpV1z",
-      agent: "04",
-      name: "Giovana Borges Cirineo Lupi",
+      agent: "05",
+      name: "Renata Borges Cirineo",
+      birth: "03/09/1982",
+      location: "Brazil",
       title:
         "Especialista em Operações Táticas e Inteligência Científica – Divisão de Exploração Exoplanetária (DEE/NASA)",
       photo: "/otavio.jpeg",
@@ -82,8 +89,10 @@ export default async function Page({
     },
     {
       id: "bD4eHg6M",
-      agent: "05",
-      name: "Giovana Borges Cirineo Lupi",
+      agent: "09",
+      name: "Luciano Borges Cirineo",
+      birth: "28/11/1980",
+      location: "Brazil",
       title:
         "Especialista em Operações Táticas e Inteligência Científica – Divisão de Exploração Exoplanetária (DEE/NASA)",
       photo: "/otavio.jpeg",
@@ -121,7 +130,7 @@ export default async function Page({
     <PageStructure>
       <div className="min-h-screen bg-gray-50 p-6 flex flex-col items-center">
         <div className="bg-white shadow-lg rounded-lg p-8 max-w-3xl w-full">
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-6 flex-wrap md:flex-nowrap">
             <Image
               src={agent.photo}
               alt={agent.name}
@@ -130,8 +139,10 @@ export default async function Page({
               className="rounded-full object-cover"
             />
             <div>
-              <h1 className="text-3xl font-bold">{agent.name}</h1>
               <p className="text-sm text-gray-500">Agente #{agent.agent}</p>
+              <h1 className="text-3xl font-bold">{agent.name}</h1>
+              <p>Data de Nascimento: {agent.birth}</p>
+              <p>Nacionalidade: {agent.location}</p>
               <p className="mt-2 text-lg text-gray-700 font-medium">
                 {agent.title}
               </p>

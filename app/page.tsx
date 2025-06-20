@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <PageStructure>
       <div>
-        <div className="min-h-[640px] relative border-b-[#17171B] border-b-[46px]">
+        <div className="min-h-[350px] md:min-h-[640px] relative border-b-[#17171B] border-b-[46px]">
           <div className="absolute z-2 w-full h-full">
-            <div className="w-[1400px] h-full mx-auto my-0 flex flex-col gap-3 justify-end px-[24px] py-[72px]">
+            <div className="md:w-[700px] 2xl:w-[1400px] h-full mx-auto my-0 flex flex-col gap-3 justify-end px-[24px] py-[72px]">
               <span className="text-white tag-highlight">Arquivo L</span>
               <span className="text-white text-4xl font-extrabold">
                 Projeto de lançamento de foguete para lua
@@ -34,8 +34,8 @@ export default function Home() {
             className="absolute w-full h-full img-fit"
           />
         </div>
-        <div className="w-[1400px] mx-auto my-0 flex gap-2 py-6">
-          <div className="w-[20%]">
+        <div className="w-[420px] flex-col md:w-[700px] lg:flex-row 2xl:w-[1400px] mx-auto my-0 flex gap-2 py-6">
+          <div className="w-[100%] lg:w-[30%] xl:w-[21%]">
             <span className="text-black tag-highlight">Agentes na missão</span>
             <div className="flex flex-col gap-4 py-4">
               {agents.map((agent, index) => {

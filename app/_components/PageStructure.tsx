@@ -20,7 +20,7 @@ export default function PageStructure(props: PageStructureProps) {
                 {props.children}
             </div>
             <footer className="bg-black py-6 flex flex-col">
-                <div className="w-[1400px] mx-auto my-0 flex flex-col gap-3">
+                <div className="md:w-[700px] 2xl:w-[1400px] mx-auto my-0 flex flex-col gap-3">
                     <Image src="/nasa-logo.svg" alt="Logo Nasa" width="60" height="60" />
                     <span className="text-2xl font-bold text-white block w-[352px]">National Aeronautics and Space Administration</span>
                     <span className="text-sm text-[#b9b9bb] w-[352px]">NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.</span>
