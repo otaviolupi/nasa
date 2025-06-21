@@ -15,7 +15,7 @@ export default async function Page({
       location: "Brazil",
       title:
         "Especialista em Operações Táticas e Inteligência Científica – Divisão de Exploração Exoplanetária (DEE/NASA)",
-      photo: "/otavio.jpeg",
+      photo: "/otavio.png",
       description:
         "Agente designado para missões de alta complexidade envolvendo detecção e análise de vida inteligente fora da Terra. Com formação avançada em astrobiologia, engenharia orbital e protocolos de contenção, atua na interseção entre ciência de ponta e operações estratégicas. Possui treinamento intensivo em ambientes extremos – incluindo simulações em gravidade zero, zonas de radiação e atmosferas hostis. Responsável por conduzir investigações em campo, interpretar dados de origem desconhecida e coordenar respostas rápidas a eventos classificados como anomalias de origem não terrestre. Atua também como elo entre equipes científicas e unidades táticas, traduzindo informações técnicas em decisões operacionais em tempo real.",
       skills: [
